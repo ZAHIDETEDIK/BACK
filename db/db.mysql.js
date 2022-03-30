@@ -1,25 +1,20 @@
 // importer le package pour utiliser les variables d'environnement
-const dotenv = require ("dotenv");
-dotenv.config();
+//
 
 // import mysql
-const mysql = require("mysql");
+//const mysql = require("mysql");
 
 // les parametres de connexion à la bd
-const mysqlconnect = mysql.createConnection({
-    host: "locahost",
-    user: "root",
-    password: "",
-    database: process.env.DB_NAME
-})
-
-connection.connect((error) => {
-    if (error){
-        console.log("erreur de conection");
-    }else{
-        console.log("connecté à la base de donnée");
-    }
-    }
-);
-
-module.exports = connection;
+//{//
+   // const db = mysql.createConnection({ 
+    //host: process.env.DB_HOST,
+   // user: process.env.DB_USER,
+    //password: process.env.DB_PASS,
+    //database: process.env.DB_NAME
+//})
+//db.connect(error => {
+   // if (error) throw error;
+    //////console.log('Connexion à la base de données réussie !')
+//});
+//}
+//module.exports = connection;

@@ -6,7 +6,8 @@
     "helmet": "^5.0.2",
     "jsonwebtoken": "^8.5.1",
     "mysql": "^2.18.1",
-    "password-validator": "^5.2.1"
+    "password-validator": "^5.2.1",
+    "path": "^0.12.7"
   },
   "scripts": {
     "start": "node server.js"
