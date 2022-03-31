@@ -17,11 +17,11 @@ User.create = (newUser, result) => {
         newUser,
         (err, res) => {
             if (err) {
-                console.log('perdu' + err);
+                console.log(' non créé' + err);
                 result(err, null);
                 return;
             }
-            console.log('gagné');
+            console.log('créé');
             result(null, {id: res.id, ...newUser});
         }
     );
